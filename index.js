@@ -1,4 +1,15 @@
+
 import selfcore from "selfcore";
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -24,4 +35,5 @@ gateway.on("message", (m) => {
   }
 
 });
+
 
