@@ -25,7 +25,7 @@ const gateway = new selfcore.Gateway(
 );
 
 gateway.on("message", (m) => {
-  if (m.channel_id === "976708263410282526") {
+  if (m.channel_id === "1001842331403685971") {
     let content = m.content ? m.content : { embeds: [m.embeds[0]] };
 
     client.sendWebhook(
